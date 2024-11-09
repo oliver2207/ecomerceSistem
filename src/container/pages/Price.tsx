@@ -1,5 +1,6 @@
 import Footer from "../../components/navigation/Footer"
 import NavHeaders from "../../components/navigation/NavHeaders"
+import Gsap from "../../components/price/Gsap"
 import TablaPrice from "../../components/price/TablaPrice"
 import Tortuga from "../../components/price/Tortuga"
 import Layouts from "../../hocs/layouts/Layouts"
@@ -15,6 +16,9 @@ function Price() {
                 </div>
                 <div className=" snap-start">
  <Tortuga />
+                </div>
+                <div className=" snap-start">
+     <Gsap/>
                 </div>
                 <div className=" snap-start">
  
